@@ -1,27 +1,39 @@
-# React + TypeScript + Vite
+# VideoMakerAI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao VideoMakerAI, uma inteligência artificial poderosa que torna a criação de conteúdo de vídeo mais eficiente e criativa. Esta plataforma é projetada para ajudar criadores de vídeo a gerar títulos atraentes, descrições cativantes, sugestões de vídeos, transcrições automáticas e até mesmo simplificar a edição de vídeo.
 
-Currently, two official plugins are available:
+## Visão Geral
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O VideoMakerAI é uma ferramenta abrangente que aborda vários aspectos do processo de criação de vídeo, tornando-o mais acessível e produtivo. Algumas das principais características incluem:
 
-## Expanding the ESLint configuration
+- **Geração de Títulos e Descrições**: Crie títulos envolventes e descrições informativas com apenas um clique, economizando tempo e melhorando a visibilidade do seu conteúdo.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Ideias de Vídeos**: Fique inspirado com sugestões de vídeo personalizadas com base em tendências, palavras-chave e seu histórico de conteúdo.
 
-- Configure the top-level `parserOptions` property like this:
+- **Transcrições Automáticas**: Converta facilmente o áudio do seu vídeo em texto, tornando-o acessível para um público mais amplo e otimizando para SEO.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- **Edição de Vídeo Inteligente**: Receba sugestões de edição de vídeo, como cortes, transições e efeitos, para aprimorar a qualidade e o apelo visual do seu conteúdo.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Como Usar
+
+Para começar a usar o VideoMakerAI, siga estas etapas simples:
+
+1. Clone este repositório em sua máquina local:
+
+   ```bash
+   https://github.com/JoaoIto/UploadAI
+   
+2. Instale as dependências padrão:
+
+    ```
+    npm install
+
+3. Só vai!
+
+    ```
+   npm run dev
+
+## Licença
+Este projeto é licenciado sob a Licença MIT e construído com Rocketseat. Consulte o arquivo LICENSE para obter detalhes.
+
+---
